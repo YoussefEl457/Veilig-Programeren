@@ -5,7 +5,8 @@ include "db.php";
 $username = $_POST["Username"];
 $password = $_POST["Password"];
 
-print $username, $password;
+print $username;
+print $password;
 
 
 

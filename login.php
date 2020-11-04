@@ -13,7 +13,7 @@ print $password;
 $myConn = new DB;
 
 
-$query = "SELECT * FROM user WHERE username = $_POST["Username"]";
+$query = "SELECT * FROM user WHERE username" = $_POST["Username"];
 
 $result = $myConn->executeSQL($query);
 
